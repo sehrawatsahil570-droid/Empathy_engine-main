@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Env variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Audio outputs
+static/audio/*.wav
+static/audio/*.mp3
+
+# VS Code
+.vscode/

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 320px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* 🔥 Loader styling */
+#loader {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #444;
+    display: none;
+    animation: pulse 1s infinite;
+}
+
+/* 🔥 Animation */
+@keyframes pulse {
+    0% { opacity: 0.3; }
+    50% { opacity: 1; }
+    100% { opacity: 0.3; }
+}
